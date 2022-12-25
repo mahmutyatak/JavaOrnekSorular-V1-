@@ -1,8 +1,6 @@
 package sample_qestions;
 
-import java.util.Scanner;
-
-public class C45 {
+public class c45 {
     /*
     Soru 45-)
 StudentMaın adında bir class olusturun, ögrenci bilgilerini alın. (ad soyad yas cınsiyet okul)
@@ -38,7 +36,7 @@ bızde yukarıda olusturdugumuz variable adlarını ekleyecegız.
                 '}';
     }
 
-    public C45(String ad, String soyad, String okul, int yas, char cinsiyet) {
+    public c45(String ad, String soyad, String okul, int yas, char cinsiyet) {
 
         this.ad=ad;
         this.soyad=soyad;
