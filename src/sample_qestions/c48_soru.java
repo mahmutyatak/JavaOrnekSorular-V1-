@@ -25,7 +25,7 @@ public class c48_soru {
         toplam(urunler,fiyatlar);
 
     }public static double toplam(List<String> urunler,List<Integer> fiyatlar){
-        System.out.println("-------------ABC MANAV---------------");
+        System.out.println("-------------DENİZ MANAV---------------");
         System.out.println("-----MENU----------");
         Scanner scan=new Scanner(System.in);
         int sayac=1;
