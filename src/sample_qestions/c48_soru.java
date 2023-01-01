@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class c48_soru {
-   static List<String> urunler=new ArrayList<>(Arrays.asList("elma","armut","ayva","muz","limon"));
-  static   List<Integer> fiyatlar=new ArrayList<>(Arrays.asList(10,15,20,12,30));
+   static List<String> urunler=new ArrayList<>(Arrays.asList("elma","greyfurt","ayva","cilek","limon"));
+  static   List<Integer> fiyatlar=new ArrayList<>(Arrays.asList(10,115,20,200,30));
    static double toplam=0;
 
 
