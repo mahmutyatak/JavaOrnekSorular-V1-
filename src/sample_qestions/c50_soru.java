@@ -7,19 +7,7 @@ public class c50_soru {
    static String kelime="";
    static int oyuncu1puan=0;
    static int oyuncu2puan=0;
-   /*canner(System.in);
-        System.out.println("kelimeyi giriniz");
-        kelime=scan.next();
 
-
-
-    }c50_soru(String kelime){
-        Scanner scan=new Scanner(System.in);
-        this.kelime=kelime;
-        System.out.println(kelime+" gecerli ise E değilse H ye basınız ");
-        char devam=scan.next().charAt(0);
-
-    */
 
 
     public static void main(String[] args) {
@@ -27,8 +15,10 @@ public class c50_soru {
         Constructor Sorusu-
 1. Aşama: Başlangıçta İlk Oyuncuya oyunu başlatmak için bir kelime girmesini iste.
 2. Aşama: Sonra oyuncuyu degiştir ve ikinci oyuncuya geç. Yeni oyuncuya verilen kelimenin geçerli olup olmadıgını sor
-   2.1) Eğer yeni oyuncu verilen kelimeyi kabul ederse : kelimeyi yazan oyuncuya puan olarak kelimedeki harf sayısını ekleyin ve 3. adıma gidin
-  2.2) Eğer yeni oyuncu verilen kelimeyi	geçerli olarak kabul etmesse "Geçersiz kelime, oyuncu X(Mevcut oyuncu) oyunu kazandı" yazıp oyunu bitirin.
+   2.1) Eğer yeni oyuncu verilen kelimeyi kabul ederse : kelimeyi yazan oyuncuya puan olarak kelimedeki harf sayısını ekleyin ve
+   3. adıma gidin
+  2.2) Eğer yeni oyuncu verilen kelimeyi	geçerli olarak kabul etmesse "Geçersiz kelime,
+  oyuncu X(Mevcut oyuncu) oyunu kazandı" yazıp oyunu bitirin.
 3. Aşama: Kullanıcılara oyuna devam etmek isteyip istemediklerini sor: Eğer devam etmek isterlerse:
   3.1) Kullanıcıdan kelimeye eklemek için bir harf isteyin
   3.2) Ve kullanıcıya hangi tarafa eklemek istedigini sorun (Başa veya Sona)

@@ -32,13 +32,13 @@ gösteren bir method yazınız. Ayrıca bakkalın hangi günler ortalamanın alt
         Scanner scan=new Scanner(System.in);
         int kazanc=0;
 
-        int sayac=1;
+
         for (int i = 0; i <gunler.size() ; i++) {
-            System.out.println(sayac+" . gun toplam kazancı giriniz");
+            System.out.println(gunler.get(i)+" . gun toplam kazancı giriniz");
             kazanc=scan.nextInt();
             gunlukKazanc.add(kazanc);
 
-            sayac++;
+
         }
        ortalamaKazanc=getortalamaKazanc(gunlukKazanc);
         System.out.println("ortalama kazanc :"+(ortalamaKazanc));
