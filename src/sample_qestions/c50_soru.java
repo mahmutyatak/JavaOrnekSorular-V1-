@@ -42,19 +42,19 @@ Puanları ve kazananı ekrana yazdİRİN
 
 }public static void oyuncu1(){
         Scanner scan=new Scanner(System.in);
-        System.out.println("kelimeyi giriniz");
+        System.out.println("1. oyuncu kelimeyi giriniz");
         kelime=scan.next();
         oyuncu2(kelime);
 
     }public static void oyuncu2(String kelime){
         Scanner scan=new Scanner(System.in);
-        System.out.println(kelime+" gecerli ise E değilse H ye basınız ");
+        System.out.println("2.oyuncu "+kelime+" gecerli ise E değilse H ye basınız ");
         char devam=scan.next().charAt(0);
         if (devam=='e'||devam=='E'){
             oyuncu1puan+=kelime.length();
-            System.out.println("kelimeye eklemek icin bir harf giriniz");
+            System.out.println("2. oyuncu kelimeye eklemek icin bir harf giriniz");
             String harf=scan.next();
-            System.out.println("harfi eklemek istediginiz yeri secin başa:B sona:S");
+            System.out.println("2. oyuncu harfi eklemek istediginiz yeri secin başa:B sona:S");
             char secim=scan.next().charAt(0);
             if (secim=='b'||secim=='B'){
                 kelime=harf.concat(kelime);
@@ -78,13 +78,13 @@ Puanları ve kazananı ekrana yazdİRİN
     }public static void oyuncuPuan(String kelime){
 
         Scanner scan=new Scanner(System.in);
-        System.out.println(kelime+" gecerli ise E değilse H ye basınız ");
+        System.out.println("1. oyuncu "+kelime+" gecerli ise E değilse H ye basınız ");
         char devam=scan.next().charAt(0);
         if (devam=='e'||devam=='E'){
             oyuncu2puan+=kelime.length();
-            System.out.println("kelimeye eklemek icin bir harf giriniz");
+            System.out.println("1. oyuncu kelimeye eklemek icin bir harf giriniz");
             String harf=scan.next();
-            System.out.println("harfi eklemek istediginiz yeri secin başa:B sona:S");
+            System.out.println("1. oyuncu harfi eklemek istediginiz yeri secin başa:B sona:S");
             char secim=scan.next().charAt(0);
             if (secim=='b'||secim=='B'){
                 kelime=harf.concat(kelime);
